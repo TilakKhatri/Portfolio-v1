@@ -86,7 +86,6 @@ function NavBar() {
 
               <Button
                 href="/resume"
-                target="_blank"
                 className="resume-btn-inner"
               >
                 Download CV
