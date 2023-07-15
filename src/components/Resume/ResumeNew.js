@@ -6,8 +6,6 @@ import pdf from "../../Assets/tilakResume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-const resumeLink =
-  "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/tilakResume.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -20,7 +18,7 @@ function ResumeNew() {
     <div>
 
       <Container fluid className="resume-section">
-        <Particle />
+        // <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
