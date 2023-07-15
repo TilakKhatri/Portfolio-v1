@@ -9,7 +9,7 @@ import Type from "./Type";
 function Home() {
   return (
     <section>
-      <Particle />
+      // <Particle />
       <Container fluid className="home-section" id="home">
 
         <Container className="home-content">
