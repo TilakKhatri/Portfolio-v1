@@ -11,7 +11,7 @@ import ozshop from "../../Assets/Projects/ozshop.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
+      // <Particle />
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
