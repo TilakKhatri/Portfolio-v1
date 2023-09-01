@@ -1,5 +1,4 @@
 import React from 'react';
-import Particle from "../Particle";
 import Button from 'react-bootstrap/Button';
 import { Container } from 'react-bootstrap'
 function Blogs() {
@@ -7,7 +6,6 @@ function Blogs() {
 
 
         <section className="blogs-section">
-            <Particle />
             <div className='blogs-banner d-flex flex-col justify-content-center align-items-center text-center'>
                 <div>
                     <div>

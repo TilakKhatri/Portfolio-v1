@@ -1,5 +1,4 @@
 import React from 'react'
-import Particle from '../Particle';
 import { Container, } from "react-bootstrap";
 import { GoLocation } from 'react-icons/go';
 import { BsTelephoneOutbound } from 'react-icons/bs';
@@ -10,7 +9,6 @@ function Contact() {
         <>
 
             <section class="mb-4 contact">
-                <Particle />
                 <Container >
                     <h2 class="h1-responsive font-weight-bold text-center my-4">Let's Talk</h2>
                     <Container >

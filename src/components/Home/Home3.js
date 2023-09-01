@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
 import ProjectCard from "../Projects/ProjectCards";
-import Particle from "../Particle";
 import moviezone from '../../Assets/Projects/moviezone.jpg';
 import netflix from '../../Assets/Projects/netflix-clone.jpg';
 import ozshop from '../../Assets/Projects/ozshop.png';
@@ -11,7 +10,6 @@ import ozshop from '../../Assets/Projects/ozshop.png';
 function Home3() {
     return (
         <Container fluid className="project-section">
-            <Particle />
             <Container>
                 <h1 className="project-heading">
                     My Recent <strong className="purple">Works </strong>
