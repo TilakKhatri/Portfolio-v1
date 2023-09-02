@@ -6,32 +6,32 @@ import { BsGithub } from "react-icons/bs";
 
 function ProjectCards(props) {
   return (
-    <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
-      <Card.Body>
+    <Card className="project-card-view ">
+      <Card.Img variant="top" src={props.imgPath} alt="card-img"  />
+      <Card.Body >
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+        {/* <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
-        </Card.Text>
+        </Card.Text> */}
+        <div className="">
         <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
+          <BsGithub />
         </Button>
         {"\n"}
         {"\n"}
-
 
         {!props.isBlog && props.demoLink && (
           <Button
             variant="primary"
             href={props.demoLink}
             target="_blank"
-            style={{ marginLeft: "5px" }}
+            style={{borderRadius:"50%",margin:1}}
+
           >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
+            <CgWebsite /> 
           </Button>
         )}
+        </div>
       </Card.Body>
     </Card>
   );
